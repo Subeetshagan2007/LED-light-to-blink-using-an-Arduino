@@ -1,0 +1,18 @@
+// Pin 13 is where the LED is connected
+int ledPin = 13;
+
+void setup() {
+  // Set pin 13 as output
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  // Turn LED on
+  digitalWrite(ledPin, HIGH);
+  // Wait for 1 second
+  delay(1000);
+  // Turn LED off
+  digitalWrite(ledPin, LOW);
+  // Wait for 1 second
+  delay(1000);
+}
